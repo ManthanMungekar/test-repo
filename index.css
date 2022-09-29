@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    height: 4rem;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.button {
+    display: flex;
+    width: 10rem; 
+    padding: 0.5rem;
+    text-decoration: none;
+    background: #ff7e7e;
+    border-radius: 0.25rem;
+}
+
+.container {
+    padding: 3rem;
+    display: flex;
+}
+
+.search-field {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    margin-left: 1rem;
+}
+
+.submit-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-form > input, button {
+    padding: 0.5rem;
+}
